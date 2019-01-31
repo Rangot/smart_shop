@@ -15,6 +15,9 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.6.5 virtualenv at C:\Users\Тёма\Envs\blogengine" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="shelf_rent" />
+    <orderEntry type="module" module-name="shelf_rent" />
+    <orderEntry type="module" module-name="blogengine" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
