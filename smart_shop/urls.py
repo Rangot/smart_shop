@@ -18,6 +18,8 @@ from django.urls import path, include
 
 from landing import urls as landing_urls
 
+admin.autodiscover()
+
 urlpatterns = [
     path('admin/', admin.site.urls, name='admin'),
     path('', include(landing_urls, namespace='landing'))
