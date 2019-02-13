@@ -7,3 +7,7 @@ class Subscriber(models.Model):
 
     def __str__(self):
         return "{} {}".format(self.email, self.name)
+
+    class Meta:
+        verbose_name = 'Subscriber'
+        verbose_name_plural = 'Subscribers'
